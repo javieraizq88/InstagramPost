@@ -10,17 +10,15 @@ body {
 }
 .caja .caja-header{
     width: 100%;
-    background-color: blue;
     margin: 0px auto;
 }
 .caja .caja-header .caja-header-left{
-    width: 50%;
+    width: 75%;
     float: left;
 }
-.caja .caja-header .caja-header-right{
-    width: 50%;
-    float: left;
-    text-align: right;
+.caja .caja-header .caja-header-right i:nth-child(1){
+    margin: 2px;
+    float: right;
 }
 .caja .caja-body img {
     width: 100%;
